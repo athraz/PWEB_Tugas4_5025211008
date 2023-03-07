@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PWEB Tugas 4</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>CREATE ACCOUNT</h1>
+        </div>
+        <form onsubmit="validateSignUp()">
+            <div class="box">
+                <h3>Name</h3>
+                <input type="text" placeholder="Enter your name" id="name">
+            </div>
+            <div class="box">
+                <h3>Email</h3>
+                <input type="text" placeholder="Enter your email id" id="email">
+            </div>
+            <div class="box">
+                <h3>Password</h3>
+                <input type="password" placeholder="Set a password" id="pass1">
+            </div>
+            <div class="box">
+                <h3>Confirm Password</h3>
+                <input type="password" placeholder="Confirm your password" id="pass2">
+            </div>
+            <div class="button">
+                <input type="button" value="Back" onclick="logIn()">
+                <input type="Submit" value="Create">
+            </div>
+        </form>
+    </div>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
