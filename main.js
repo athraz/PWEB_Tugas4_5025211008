@@ -62,5 +62,5 @@ function signUp(){
 }
 
 function logIn(){
-    window.location = "login.html";
+    window.location = "index.html";
 }
